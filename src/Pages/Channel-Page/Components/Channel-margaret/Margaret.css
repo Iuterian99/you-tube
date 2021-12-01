@@ -1,0 +1,25 @@
+.user-name {
+  height: 33px;
+  left: 18.18%;
+  right: 71.15%;
+  top: calc(50% - 33px / 2 - 164.5px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.user-info {
+  height: 16px;
+  left: 18.18%;
+  right: 76.56%;
+  top: calc(50% - 16px / 2 - 139px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #c2c2c2;
+}
