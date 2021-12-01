@@ -12,9 +12,7 @@
 }
 
 .video-name {
-  width: 205px;
-  left: 13.28%;
-  right: 76.04%;
+  width: 150px;
   top: calc(50% - 20px / 2 - 236px);
   font-family: Mulish;
   font-style: normal;
@@ -22,4 +20,16 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.video-info {
+  top: calc(50% - 16px / 2 - 214px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 20px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
 }

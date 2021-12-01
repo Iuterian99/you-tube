@@ -26,7 +26,10 @@
   font-size: 16px;
   line-height: 20px;
   color: #ff0000;
-  fill: red;
+}
+
+svg {
+  width: 500px;
 }
 
 .home-navlik::before {
@@ -40,6 +43,7 @@
   margin-right: 12px;
   color: #ffffff;
 }
+
 .trending-navlik::before {
   content: "";
   display: inline-block;
@@ -51,6 +55,7 @@
   margin-right: 12px;
   color: #ffffff;
 }
+
 .subscriptions-navlik::before {
   content: "";
   display: inline-block;
@@ -166,6 +171,10 @@
   opacity: 0.5;
 }
 
+.subscriptors:hover {
+  color: #ff0000;
+}
+
 .setting {
   height: 20px;
   left: 3.39%;
@@ -179,6 +188,10 @@
   color: #c2c2c2;
   display: flex;
   align-items: center;
+}
+
+.setting:hover {
+  color: #ff0000;
 }
 
 .setting::before {

@@ -36,7 +36,7 @@ function LeftNavbar() {
             height="25"
           />
           <img
-            className="img-responsive"
+            className="img-responsive me-3"
             src={youtubeSentence}
             alt="youtube Logo"
             width="75"
@@ -148,86 +148,86 @@ function LeftNavbar() {
       <h3 className="h3 subscriptions text-light mt-3 mb-4">Subscriptions</h3>
       <ul className="subscriptions-list list-unstyled pb-5">
         <li className="subscriptions-item d-flex mb-4">
-          <Link className="subscriptors text-decoration-none text-light" to="/">
-            <img
-              className="subscriptions-img me-3"
-              src={gusie}
-              alt="gusie img"
-              width="26"
-              height="26"
-            />
+          <img
+            className="subscriptions-img me-3"
+            src={gusie}
+            alt="gusie img"
+            width="26"
+            height="26"
+          />
+          <Link className="subscriptors text-decoration-none" to="/">
             Gussie Singleton
           </Link>
         </li>
         <li className="subscriptions-item d-flex mb-4">
-          <Link className="subscriptors text-decoration-none text-light" to="/">
-            <img
-              className="subscriptions-img me-3"
-              src={nora}
-              alt="nora img"
-              width="26"
-              height="26"
-            />
+          <img
+            className="subscriptions-img me-3"
+            src={nora}
+            alt="nora img"
+            width="26"
+            height="26"
+          />
+          <Link className="subscriptors text-decoration-none" to="/">
             Nora Francis
           </Link>
         </li>
         <li className="subscriptions-item d-flex mb-4">
-          <Link className="subscriptors text-decoration-none text-light" to="/">
-            <img
-              className="subscriptions-img me-3"
-              src={belle}
-              alt="belle img"
-              width="26"
-              height="26"
-            />
+          <img
+            className="subscriptions-img me-3"
+            src={belle}
+            alt="belle img"
+            width="26"
+            height="26"
+          />
+          <Link className="subscriptors text-decoration-none" to="/">
             Belle Briggs
           </Link>
         </li>
         <li className="subscriptions-item d-flex mb-4">
-          <Link className="subscriptors text-decoration-none text-light" to="/">
-            <img
-              className="subscriptions-img me-3"
-              src={eunice}
-              alt="Eunice Cortez img"
-              width="26"
-              height="26"
-            />
+          <img
+            className="subscriptions-img me-3"
+            src={eunice}
+            alt="Eunice Cortez img"
+            width="26"
+            height="26"
+          />
+          <Link className="subscriptors text-decoration-none" to="/">
             Eunice Cortez
           </Link>
         </li>
         <li className="subscriptions-item d-flex mb-4">
-          <Link className="subscriptors text-decoration-none text-light" to="/">
-            <img
-              className="subscriptions-img me-3"
-              src={emma}
-              alt="Emma Hanson img"
-              width="26"
-              height="26"
-            />
+          <img
+            className="subscriptions-img me-3"
+            src={emma}
+            alt="Emma Hanson img"
+            width="26"
+            height="26"
+          />
+          <Link className="subscriptors text-decoration-none" to="/">
             Emma Hanson
           </Link>
         </li>
         <li className="subscriptions-item d-flex mb-4">
-          <Link className="subscriptors text-decoration-none text-light" to="/">
-            <img
-              className="subscriptions-img me-3"
-              src={leah}
-              alt="Leah img"
-              width="26"
-              height="26"
-            />
+          <img
+            className="subscriptions-img me-3"
+            src={leah}
+            alt="Leah img"
+            width="26"
+            height="26"
+          />
+          <Link className="subscriptors text-decoration-none" to="/">
             Leah Berry
           </Link>
         </li>
         <li className="subscriptions-item d-flex mb-4">
-          <Link className="subscriptors text-decoration-none text-light" to="/">
-            <img
-              className="subscriptions-img me-3"
-              src={gusie}
-              alt="gusie img"
-              width="26"
-              height="26"
-            />
+          <img
+            className="subscriptions-img me-3"
+            src={gusie}
+            alt="gusie img"
+            width="26"
+            height="26"
+          />
+          <Link className="subscriptors text-decoration-none" to="/">
             Gussie Singleton
           </Link>
         </li>
