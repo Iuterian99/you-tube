@@ -6,13 +6,15 @@ import CenterDollie from "./Center-dollie/Dollie";
 import CenterRecommended from "./Center-recommended/Recommended";
 import FoodAndDrink from "./Center-food-drink/Food-drink";
 
+// Importing Link files
+import ChannelCenter from "../../../Channel-Page/Components/Channel-center/Channel-center";
+
 function Center() {
   return (
     <div className="center pt-3 pe-0">
       <div className="row">
         <div className="col-12">{<CenterTop />}</div>
       </div>
-
       {/* <div className="row">
         <div className="col-12 pe-0">{<CenterDollie />}</div>
       </div>
@@ -22,6 +24,9 @@ function Center() {
       <div className="row">
         <div className="col-12">{<FoodAndDrink />}</div>
       </div> */}
+      <div className="row mt-2">
+        <div className="col-12">{<ChannelCenter />}</div>
+      </div>
     </div>
   );
 }
