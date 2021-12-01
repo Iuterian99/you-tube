@@ -13,7 +13,7 @@ function Center() {
         <div className="col-12">{<CenterTop />}</div>
       </div>
 
-      <div className="row">
+      {/* <div className="row">
         <div className="col-12 pe-0">{<CenterDollie />}</div>
       </div>
       <div className="row">
@@ -21,7 +21,7 @@ function Center() {
       </div>
       <div className="row">
         <div className="col-12">{<FoodAndDrink />}</div>
-      </div>
+      </div> */}
     </div>
   );
 }
