@@ -18,3 +18,7 @@
   mix-blend-mode: normal;
   opacity: 0.4;
 }
+
+.video-namecha:hover {
+  color: red;
+}

@@ -5,4 +5,9 @@
   bottom: 24%;
   background: #ff0000;
   border-radius: 20px;
+  color: white;
+}
+
+.subscribe-btn:hover {
+  color: black;
 }

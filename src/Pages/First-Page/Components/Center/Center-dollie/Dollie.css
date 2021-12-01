@@ -22,6 +22,10 @@
   color: #ffffff;
 }
 
+.video-name:hover {
+  color: red;
+}
+
 .video-info {
   top: calc(50% - 16px / 2 - 214px);
   font-family: Mulish;
@@ -32,4 +36,15 @@
   color: #ffffff;
   mix-blend-mode: normal;
   opacity: 0.4;
+}
+
+.slide-btn {
+  left: 88.8%;
+  right: 9.74%;
+  top: 11.5%;
+  bottom: 86.17%;
+}
+
+.slide-btn:hover svg path {
+  fill: red;
 }
