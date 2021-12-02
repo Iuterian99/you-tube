@@ -2,9 +2,6 @@ import "./Left-navbar.css";
 import { NavLink, Link } from "react-router-dom";
 
 // Impoerting Images;
-import hamburgLogo from "../../../../Assets/Images/habmurger-logo.png";
-import youtubeLogo from "../../../../Assets/Images/youtube-logo.svg";
-import youtubeSentence from "../../../../Assets/Images/yutube-sentence.svg";
 import gusie from "../../../../Assets/Images/gussie.png";
 import nora from "../../../../Assets/Images/nora.png";
 import belle from "../../../../Assets/Images/belle.png";
@@ -15,35 +12,6 @@ import leah from "../../../../Assets/Images/leah.png";
 function LeftNavbar() {
   return (
     <div className="p-4">
-      <div className="left-top d-flex align-items-center justify-content-between">
-        <div className="hamburger-logo">
-          <button className="btn p-0" type="button">
-            <img
-              className="img-responsive pb-1"
-              src={hamburgLogo}
-              alt="hamburger Logo"
-              width="20"
-              height="17"
-            />
-          </button>
-        </div>
-        <div className="youtube ms-2">
-          <img
-            className="me-2 img-responsive"
-            src={youtubeLogo}
-            alt="youtube Logo"
-            width="37"
-            height="25"
-          />
-          <img
-            className="img-responsive me-3"
-            src={youtubeSentence}
-            alt="youtube Logo"
-            width="75"
-            height="23"
-          />
-        </div>
-      </div>
       <ul className="navlik-list list-unstyled mt-4">
         <li className="navlik-item mb-3">
           <NavLink
@@ -317,7 +285,7 @@ function LeftNavbar() {
             width="26"
             height="26"
           />
-          <Link className="subscriptors text-decoration-none" to="/">
+          <Link className="subscriptors text-decoration-none" to="/channel">
             Gussie Singleton
           </Link>
         </li>
@@ -329,7 +297,7 @@ function LeftNavbar() {
             width="26"
             height="26"
           />
-          <Link className="subscriptors text-decoration-none" to="/">
+          <Link className="subscriptors text-decoration-none" to="/channel">
             Nora Francis
           </Link>
         </li>
@@ -341,7 +309,7 @@ function LeftNavbar() {
             width="26"
             height="26"
           />
-          <Link className="subscriptors text-decoration-none" to="/">
+          <Link className="subscriptors text-decoration-none" to="/channel">
             Belle Briggs
           </Link>
         </li>
@@ -353,7 +321,7 @@ function LeftNavbar() {
             width="26"
             height="26"
           />
-          <Link className="subscriptors text-decoration-none" to="/">
+          <Link className="subscriptors text-decoration-none" to="/channel">
             Eunice Cortez
           </Link>
         </li>
@@ -365,7 +333,7 @@ function LeftNavbar() {
             width="26"
             height="26"
           />
-          <Link className="subscriptors text-decoration-none" to="/">
+          <Link className="subscriptors text-decoration-none" to="/channel">
             Emma Hanson
           </Link>
         </li>
@@ -377,7 +345,7 @@ function LeftNavbar() {
             width="26"
             height="26"
           />
-          <Link className="subscriptors text-decoration-none" to="/">
+          <Link className="subscriptors text-decoration-none" to="/channel">
             Leah Berry
           </Link>
         </li>
@@ -389,7 +357,7 @@ function LeftNavbar() {
             width="26"
             height="26"
           />
-          <Link className="subscriptors text-decoration-none" to="/">
+          <Link className="subscriptors text-decoration-none" to="/channel">
             Gussie Singleton
           </Link>
         </li>

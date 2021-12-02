@@ -27,7 +27,7 @@ function FoodAndDrink() {
                 width="50"
                 height="50"
               />
-              <h4 className="user-name m-0">Food & Drink</h4>
+              <Link className="user-name m-0 text-decoration-none" to="/channel">Food & Drink</Link>
               <Link className="text-decoration-none text-light ms-2" to="/">
                 Recommended channel for you
               </Link>

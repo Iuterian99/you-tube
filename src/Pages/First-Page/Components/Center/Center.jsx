@@ -13,9 +13,6 @@ function Center() {
   return (
     <div className="center pt-3 pe-0">
       <div className="row">
-        <div className="col-12">{<CenterTop />}</div>
-      </div>
-      {/* <div className="row">
         <div className="col-12 pe-0">{<CenterDollie />}</div>
       </div>
       <div className="row">
@@ -23,9 +20,6 @@ function Center() {
       </div>
       <div className="row">
         <div className="col-12">{<FoodAndDrink />}</div>
-      </div> */}
-      <div className="row mt-2">
-        <div className="col-12">{<ChannelCenter />}</div>
       </div>
     </div>
   );

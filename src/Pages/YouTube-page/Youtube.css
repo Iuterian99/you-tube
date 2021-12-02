@@ -1,0 +1,130 @@
+.iframe-wrapper {
+  display: block;
+  overflow: hidden;
+  border-radius: 15px;
+  transform: translateZ(0px);
+}
+
+.youtube-heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.youtube-paragraph {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c2c2c2;
+}
+
+.like-btn {
+  border-radius: 20px;
+}
+
+.like-btn:hover {
+  color: red;
+}
+
+.like-btn:hover svg path {
+  fill: red;
+}
+
+.food-and-drink-p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.food-and-drink-total-info {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.showMore {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.showMore:hover {
+  color: red;
+}
+
+.video-name-youtube {
+  top: calc(50% - 20px / 2 - 236px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.video-name-youtube:hover {
+  color: red;
+}
+
+.next-heading {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.next-heading:hover {
+  color: red;
+}
+
+.autoplay {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.autoplay:hover {
+  color: red;
+}
+
+.autoplay:hover svg path {
+  fill: red;
+}
+
+.video-info-youtube {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #c2c2c2;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}

@@ -1,0 +1,50 @@
+.header-hamburger:hover svg path {
+  fill: red;
+}
+
+.header-input {
+  position: relative;
+  border-radius: 22px;
+  mix-blend-mode: normal;
+  width: 450px;
+  color: white;
+  margin-left: -10px;
+  background-color: #2d2d33;
+  outline: none;
+}
+
+.header-label {
+  position: relative;
+}
+
+.label-search {
+  position: absolute;
+  right: 17px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.left-btns:hover svg path {
+  fill: red;
+}
+
+.header-notification {
+  position: relative;
+}
+
+.header-notification:before {
+  position: absolute;
+  content: "3";
+  color: white;
+  display: inline-block;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  top: -15%;
+  right: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}

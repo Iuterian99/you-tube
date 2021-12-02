@@ -1,8 +1,4 @@
 .user-name {
-  height: 33px;
-  left: 16.93%;
-  right: 76.04%;
-  top: calc(50% - 33px / 2 - 460.5px);
   font-family: Mulish;
   font-style: normal;
   font-weight: bold;
@@ -11,6 +7,9 @@
   color: #ffffff;
 }
 
+.user-name:hover {
+  color: red;
+}
 .video-name {
   width: 150px;
   top: calc(50% - 20px / 2 - 236px);

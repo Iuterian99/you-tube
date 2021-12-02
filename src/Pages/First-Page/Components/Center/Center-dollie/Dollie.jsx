@@ -1,7 +1,9 @@
 import "./Dollie.css";
 
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
+
+import ChannelCenter from "../../../../Channel-Page/Components/Channel-center/Channel-center";
 
 import Dollie from "../../../../../Assets/Images/dollie.svg";
 
@@ -24,7 +26,9 @@ function CenterDollie() {
           width="50"
           height="50"
         />
-        <h4 className="user-name">Dollie Blair</h4>
+        <Link className="user-name text-decoration-none" to="/channel">
+          Dollie Blair
+        </Link>
       </div>
       {users.length > 0 && (
         <>
@@ -79,7 +83,7 @@ function CenterDollie() {
               <li key={user.id} className="video-lists">
                 <Link
                   className="text-decoration-none d-block video-name"
-                  to="/"
+                  to="/youtube"
                 >
                   <img
                     className="img-responsive rounded-3"
