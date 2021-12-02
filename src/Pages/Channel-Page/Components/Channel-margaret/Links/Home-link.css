@@ -1,0 +1,38 @@
+.home-heading {
+  width: 100%;
+  max-width: 350px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.home-paragraph {
+  width: 100%;
+  max-width: 350px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.home-video-info {
+  height: 22px;
+  left: 43.07%;
+  right: 46.67%;
+  top: calc(50% - 22px / 2 + 210px);
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}

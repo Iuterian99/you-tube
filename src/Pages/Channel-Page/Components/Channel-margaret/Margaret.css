@@ -1,8 +1,4 @@
 .user-name {
-  height: 33px;
-  left: 18.18%;
-  right: 71.15%;
-  top: calc(50% - 33px / 2 - 164.5px);
   font-family: Mulish;
   font-style: normal;
   font-weight: bold;
@@ -12,14 +8,62 @@
 }
 
 .user-info {
-  height: 16px;
-  left: 18.18%;
-  right: 76.56%;
-  top: calc(50% - 16px / 2 - 139px);
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 16px;
   color: #c2c2c2;
+}
+
+.recommended-header {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+}
+
+.margaret-search-label {
+  position: relative;
+}
+
+.margaret-search-label::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background-image: url("../../../../Assets/Images/search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 19px;
+  top: 3px;
+  margin-left: 5px;
+}
+
+.margaret-input {
+  width: 90px;
+}
+
+.margaret-navlinks {
+  color: white;
+}
+
+.margaret-navlinks:hover {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.recommended-links {
+  color: white;
+}
+
+.recommended-links:hover {
+  color: red;
+}
+
+.margaret-active-navlink {
+  color: red;
+  border-bottom: 2px solid red;
 }
