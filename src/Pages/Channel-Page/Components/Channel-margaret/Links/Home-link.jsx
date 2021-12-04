@@ -6,7 +6,7 @@ import HomeImage from "../../../../../Assets/Images/home-video.svg";
 function HomeLink() {
   return (
     <div className="d-flex align-items-center">
-      <Link className="home-video-link" to="/home">
+      <Link className="home-video-link" to="/youtube">
         <img
           className="img-responsive"
           src={HomeImage}

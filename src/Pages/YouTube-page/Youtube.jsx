@@ -119,7 +119,12 @@ function Youtube() {
                   height="50"
                 />
                 <div className="food-and-drink-words">
-                  <h4 className="user-name m-0">Food & Drink</h4>
+                  <Link
+                    className="user-name m-0 text-decoration-none"
+                    to="/channel"
+                  >
+                    Food & Drink
+                  </Link>
                   <p className="food-and-drink-p mb-0">
                     Published on 14 Jun 2019
                   </p>

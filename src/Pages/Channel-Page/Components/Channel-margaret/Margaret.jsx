@@ -44,6 +44,7 @@ function Margaret() {
               className="margaret-navlinks text-decoration-none"
               activeClassName="margaret-active-navlink"
               to="/home"
+              exact
             >
               Home
             </NavLink>
@@ -93,14 +94,16 @@ function Margaret() {
           <div className="row mt-4">
             <div className="col-12">
               <Switch>
-                <Route path="/home">{<HomeLink />}</Route>
-                <Route path="/videos">{<VideosLink />}</Route>
+                <Route path="/channel/home" exact>
+                  {<HomeLink />}
+                </Route>
+                <Route path="/videos" exact>
+                  {<VideosLink />}
+                </Route>
                 <Route path="/playlists">{<PlaylistsLink />}</Route>
                 <Route path="/channels">{<ChannelsLink />}</Route>
                 <Route path="/discussion">{<DiscussionLink />}</Route>
-                <Route path="/about" exact>
-                  {<AboutLink />}
-                </Route>
+                <Route path="/about"> {<AboutLink />}</Route>
               </Switch>
             </div>
           </div>
