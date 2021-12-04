@@ -16,15 +16,6 @@ function App() {
         <div className="col-12 fixed-top">{<TopHeader />}</div>
       </div>
       <div className="row bg-dark pe-3">
-        <div className="col-12">
-          <Switch>
-            <Route path="/youtube" exact>
-              {<Youtube />}
-            </Route>
-          </Switch>
-        </div>
-      </div>
-      <div className="row bg-dark pe-3">
         <div className="col-3 pe-0">{<LeftNavbar />}</div>
         <div className="col-9 ps-0">
           <Switch>
@@ -33,6 +24,9 @@ function App() {
             </Route>
             <Route path="/" exact>
               {<Center />}
+            </Route>
+            <Route path="/youtube" exact>
+              {<Youtube />}
             </Route>
           </Switch>
         </div>

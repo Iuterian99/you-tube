@@ -302,7 +302,9 @@ function Youtube() {
                         </p>
                       </div>
                       <div className="video-infos-youtube">
-                        <p className="video-info-youtube m-0">Dollie Blair</p>
+                        <p className="video-info-youtube m-0 ms-2">
+                          Dollie Blair
+                        </p>
                       </div>
                     </div>
                   </li>
