@@ -1,7 +1,6 @@
 import "./Top-header.css";
 import { Link } from "react-router-dom";
 
-import youtubeSentence from "../../Assets/Images/yutube-sentence.svg";
 import userImage from "../../Assets/Images/Userpic.svg";
 import Search from "../../Assets/Images/search.svg";
 

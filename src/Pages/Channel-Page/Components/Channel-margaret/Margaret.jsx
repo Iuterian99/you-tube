@@ -93,22 +93,12 @@ function Margaret() {
           <div className="row mt-4">
             <div className="col-12">
               <Switch>
-                <Route path="/home" default exact>
-                  {<HomeLink />}
-                </Route>
-                <Route path="/videos" default>
-                  {<VideosLink />}
-                </Route>
-                <Route path="/playlists" default>
-                  {<PlaylistsLink />}
-                </Route>
-                <Route path="/channels" default>
-                  {<ChannelsLink />}
-                </Route>
-                <Route path="/discussion" default>
-                  {<DiscussionLink />}
-                </Route>
-                <Route path="/about" default>
+                <Route path="/home">{<HomeLink />}</Route>
+                <Route path="/videos">{<VideosLink />}</Route>
+                <Route path="/playlists">{<PlaylistsLink />}</Route>
+                <Route path="/channels">{<ChannelsLink />}</Route>
+                <Route path="/discussion">{<DiscussionLink />}</Route>
+                <Route path="/about" exact>
                   {<AboutLink />}
                 </Route>
               </Switch>

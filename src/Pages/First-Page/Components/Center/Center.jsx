@@ -5,9 +5,6 @@ import CenterDollie from "./Center-dollie/Dollie";
 import CenterRecommended from "./Center-recommended/Recommended";
 import FoodAndDrink from "./Center-food-drink/Food-drink";
 
-// Importing Link files
-import ChannelCenter from "../../../Channel-Page/Components/Channel-center/Channel-center";
-
 function Center() {
   return (
     <div className="center pt-3 pe-0">

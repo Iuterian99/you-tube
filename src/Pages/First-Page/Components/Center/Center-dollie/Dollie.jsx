@@ -1,9 +1,7 @@
 import "./Dollie.css";
 
 import { useEffect, useState } from "react";
-import { Link, Switch, Route } from "react-router-dom";
-
-import ChannelCenter from "../../../../Channel-Page/Components/Channel-center/Channel-center";
+import { Link } from "react-router-dom";
 
 import Dollie from "../../../../../Assets/Images/dollie.svg";
 
