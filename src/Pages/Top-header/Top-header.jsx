@@ -125,9 +125,9 @@ function TopHeader() {
             />
           </svg>
         </button>
-        <button className="left-btns  border-0 bg-dark">
+        <Link className="left-btns  border-0 bg-dark" to="/">
           <img src={userImage} alt="user" width="40" height="40" />
-        </button>
+        </Link>
       </div>
     </div>
   );
