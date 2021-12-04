@@ -27,8 +27,16 @@ function FoodAndDrink() {
                 width="50"
                 height="50"
               />
-              <Link className="user-name m-0 text-decoration-none" to="/channel">Food & Drink</Link>
-              <Link className="text-decoration-none text-light ms-2" to="/">
+              <Link
+                className="user-name m-0 text-decoration-none"
+                to="/channel"
+              >
+                Food & Drink
+              </Link>
+              <Link
+                className="text-decoration-none text-light ms-2"
+                to="/channel"
+              >
                 Recommended channel for you
               </Link>
             </div>
@@ -85,7 +93,7 @@ function FoodAndDrink() {
               <li key={user.id} className="video-lists">
                 <Link
                   className="text-decoration-none d-block video-name"
-                  to="/"
+                  to="/youtube"
                 >
                   <img
                     className="img-responsive rounded-3"

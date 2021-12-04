@@ -139,7 +139,7 @@ function Youtube() {
             </p>
             <Link
               className="showMore text-decoration-none ms-5 mt-3f d-block"
-              to="/"
+              to="/channel"
             >
               Show more
             </Link>
@@ -154,7 +154,7 @@ function Youtube() {
                   <Link className="next-heading text-decoration-none" to="/">
                     Next
                   </Link>
-                  <Link className="autoplay text-decoration-none" to="/">
+                  <Link className="autoplay text-decoration-none" to="/youtube">
                     <svg
                       className="me-2"
                       width="44"
@@ -284,7 +284,7 @@ function Youtube() {
                   <li key={user.id} className="video-lists mb-4 ms-5">
                     <Link
                       className="text-decoration-none d-block video-name-youtube"
-                      to="/"
+                      to="/youtube"
                     >
                       <img
                         className="img-responsive rounded-3 d-block"

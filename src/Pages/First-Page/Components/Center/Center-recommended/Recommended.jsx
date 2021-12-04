@@ -70,7 +70,7 @@ function CenterRecommended() {
               <li key={user.id} className="video-lists">
                 <Link
                   className="recommended-link text-decoration-none d-block video-namecha"
-                  to="/"
+                  to="/youtube"
                 >
                   <img
                     className="img-responsive d-block rounded-3"

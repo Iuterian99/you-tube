@@ -48,3 +48,7 @@
   justify-content: center;
   line-height: 1;
 }
+
+.youtube-sentence:hover svg path {
+  fill: blue;
+}

@@ -1,7 +1,6 @@
 import "./Center.css";
 
 // Importing Functions
-import CenterTop from "./Center-top/Center-top";
 import CenterDollie from "./Center-dollie/Dollie";
 import CenterRecommended from "./Center-recommended/Recommended";
 import FoodAndDrink from "./Center-food-drink/Food-drink";
