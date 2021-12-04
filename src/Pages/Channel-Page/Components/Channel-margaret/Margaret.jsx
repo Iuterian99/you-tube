@@ -117,7 +117,10 @@ function Margaret() {
         </div>
         <div className="col-4 text-center d-flex flex-column">
           <h5 className="recommended-header mb-4">Recommended channel</h5>
-          <Link className="recommended-links text-decoration-none mb-3" to="./">
+          <Link
+            className="recommended-links text-decoration-none mb-3"
+            to="/channel"
+          >
             <img
               className="img-responsive me-3"
               src={FloraImage}
@@ -127,7 +130,10 @@ function Margaret() {
             />
             Flora Benson
           </Link>
-          <Link className="recommended-links text-decoration-none mb-3" to="./">
+          <Link
+            className="recommended-links text-decoration-none mb-3"
+            to="/channel"
+          >
             <img
               className="img-responsive me-3"
               src={VioletImage}
@@ -137,7 +143,10 @@ function Margaret() {
             />
             Violet Cobb
           </Link>
-          <Link className="recommended-links text-decoration-none" to="./">
+          <Link
+            className="recommended-links text-decoration-none"
+            to="/channel"
+          >
             <img
               className="img-responsive me-3"
               src={PhilipImage}
@@ -210,7 +219,7 @@ function Margaret() {
                     <li key={user.id} className="video-lists">
                       <Link
                         className="text-decoration-none d-block video-name"
-                        to="/"
+                        to="/youtube"
                       >
                         <img
                           className="img-responsive rounded-3"
